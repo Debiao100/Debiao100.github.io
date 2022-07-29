@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Gridea | 朱德彪</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://debiao100.github.io//favicon.ico?v=1659084769691">
+<link rel="stylesheet" href="https://debiao100.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="这里是我弄的一个小博客">
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://debiao100.github.io/">
+        <img src="https://debiao100.github.io//images/avatar.png?v=1659084769691" class="site-logo">
+        <h1 class="site-title">朱德彪</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            技术 Work
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            生活 Life
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      这里是我弄的一个小博客
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://debiao100.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: Gridea</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://debiao100.github.io/post/ji-lu-yi-ge-css-hua-yi-ge-ai-xin-de-dai-ma-ling-dong-de-gan-jue/">
+                  <h2 class="post-title">记录一个CSS画一个爱心的代码，灵动的感觉</h2>
+                </a>
+                <div class="post-date">
+                  2020-06-19
+                </div>
+                <div class="post-abstract">
+                  <pre><code>@keyframes shake {
+  0% {
+    transform: scale(1.1, 1.1);
+  }
+
+  to {
+    transform: scale(.9, .9);
+  }
+}
+
+@keyframes shadow {
+  to {
+    box-shadow: 0 0 50px #ef4657;
+  }
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-bar,
+.item-heart {
+  position: absolute;
+  animation-duration: .5s;
+}
+
+.heart-bar {
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -110px 0 0 -100px;
+  animation-name: shake;
+  animation-iteration-count: infinite;
+}
+
+.item-heart {
+  width: 100%;
+  height: 100%;
+  background: #ef4657;
+  animation-name: shadow;
+  animation-iteration-count: infinite;
+}
+.top-left,
+.top-right {
+  border-radius: 100px 100px 0 0;
+}
+
+.top-left {
+  transform: translate(-50px, 0) rotate(-45deg);
+}
+
+.top-right {
+  transform: translate(50px, 0) rotate(45deg);
+}
+
+.bottom {
+  transform: translate(0, 64px) rotate(45deg) scale(.9, .9);
+}
+</code></pre>
+<p>/*<em>html</em>/</p>
+<body>
+  <div class="heart-bar flex-center">
+    <div class="item-heart top-left"></div>
+    <div class="item-heart top-right"></div>
+    <div class="item-heart bottom"></div>
+  </div>
+</body>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://debiao100.github.io/post/ji-lu-yi-ge-css-hua-yi-ge-ai-xin-de-dai-ma-ling-dong-de-gan-jue/">
+                  <div class="feature-container" style="background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-b78e3293b9c4bb83b9162646021f0413_250x0.jpg%3Fsource%3D172ae18b&amp;refer=http%3A%2F%2Fpic2.zhimg.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=auto?sec=1661676440&amp;t=72225a3f9e25944153fc03cdbf5c7d36')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://debiao100.github.io/post/hello-gridea/">
+                  <h2 class="post-title">说说看为什么程序员会喜欢写hello world？</h2>
+                </a>
+                <div class="post-date">
+                  2018-12-12
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://debiao100.github.io/post/hello-gridea/">
+                  <div class="feature-container" style="background-image: url('https://debiao100.github.io//post-images/hello-gridea.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
